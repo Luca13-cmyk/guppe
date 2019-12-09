@@ -64,6 +64,7 @@ print(usuarios)
 
 # Forma 2
 inativos = list(filter(lambda usuario: not usuario['tweets'], usuarios))
+# Sendo FALSE, o not vai converter o false (array vazio) para true, fazendo a funcao filter colocar seu valor em filterObject.
 
 print(inativos)
 """
