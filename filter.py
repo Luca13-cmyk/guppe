@@ -43,7 +43,7 @@ print(list(res))
 # map() -> Recebe dois parâmetros, uma função e um iterável e retorna um objeto mapeando a função para cada elemento do iterável.
 
 # filter() -> Recebe dois parâmetros, uma função e um iterável e retorna um objeto filtrando apenas os elementos de acordo com a função.
-
+# filter() retorna True ou False, diferente de map()
 # Exemplo mais complexo
 
 usuarios = [
