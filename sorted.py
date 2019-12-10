@@ -17,7 +17,7 @@ print(numeros)
 
 print(sorted(numeros))  # Ordenar do menor para o maior
 
-print(numeros)
+print(numeros) # A lista nao e atualizada com o sorted, ela gera uma nova lista.
 
 numeros = [6, 1, 8, 2]
 print(numeros)
