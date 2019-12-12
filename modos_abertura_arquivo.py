@@ -38,6 +38,12 @@ with open('outro.txt', 'r+') as arquivo:
     arquivo.write('Nova linha.\n')
     arquivo.seek(32)
     arquivo.write('Mais uma linha.\n')
+    
+    
+with open("texto", "r+") as arquivo:
+    c = arquivo.read()
+    c = c.replace("c = 8", "c = 17")
+    print(c)
 """
 
 
