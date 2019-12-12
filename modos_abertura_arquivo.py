@@ -19,6 +19,8 @@ try:
 except FileExistsError:
     print('Arquivo já existe')
 
+# with open("texto", "w") as t:
+#     print("Ecrito", file=t)  # Escreve no arquivo o valor do print
 
 # Exemplo a
 with open('frutas.txt', 'a') as arquivo:
